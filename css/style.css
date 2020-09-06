@@ -36,15 +36,35 @@
 }
 
 .mainBackground {
-  margin: 2px;
+  margin: 0px;
   background: rgb(255, 255, 255);
 }
 
-hr {
+.pageBreak {
   display: block;
-  background: black;
-  height: 2px;
-  width: 70%;
+  border: black thin solid;
+  background: fixed black;
+  height: 1px;
+  width: 50%;
+}
+
+.endPage {
+  border: 5px none black;
+  border-top-style: dotted;
+  width: 25%;
+}
+
+.contactMeBtn {
+  margin: 0 auto;
+  width: 150px;
+  height: 50px;
+  font-size: larger;
+  background: cadetblue;
+  color: white;
+  font-weight: bold;
+  border-radius: 10px;
+  border: none;
+  display: block;
 }
 
 p {
